@@ -5,7 +5,7 @@ import java.time.MonthDay;
 public class BirthdayGreeter {
     private final EmployeeRepository employeeRepository;
     private final Clock clock;
-    private final Clock emailSender;
+    private final EmailSender emailSender;
 
     public BirthdayGreeter(EmployeeRepository employeeRepository, Clock clock, EmailSender anEmailSender) {
         this.employeeRepository = employeeRepository;
